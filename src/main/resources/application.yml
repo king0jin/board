@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://3.35.167.176:3306/board?useSSL=false&allowPublicKeyRetrieval=true
+    username: jini
+    password: 000000
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
